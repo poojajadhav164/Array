@@ -1,0 +1,29 @@
+package com.tka.jan14;
+
+public class CSKTest {
+	
+
+	    public static void main(String[] args) {
+
+	        CSK[] cskPlayers = new CSK[11];
+
+	        cskPlayers[0] = new CSK(7, "MS Dhoni-WK", 5082, 0, "CSK");
+	        cskPlayers[1] = new CSK(8, "Ravindra Jadeja", 2756, 152, "CSK");
+	        cskPlayers[2] = new CSK(31, "Ruturaj Gaikwad-C", 1797, 0, "CSK");
+	        cskPlayers[3] = new CSK(55, "Ambati Rayudu", 4348, 0, "CSK");
+	        cskPlayers[4] = new CSK(90, "Deepak Chahar", 80, 72, "CSK");
+	        cskPlayers[5] = new CSK(99, "Shardul Thakur", 307, 82, "CSK");
+	        cskPlayers[6] = new CSK(3, "Suresh Raina", 5528, 25, "CSK");
+	        cskPlayers[7] = new CSK(25, "Dwayne Bravo", 1560, 183, "CSK");
+	        cskPlayers[8] = new CSK(18, "Moeen Ali", 910, 24, "CSK");
+	        cskPlayers[9] = new CSK(56, "Maheesh Theekshana", 15, 35, "CSK");
+	        cskPlayers[10] = new CSK(81, "Devon Conway", 924, 0, "CSK");
+
+	   
+	        for (CSK player : cskPlayers) {
+		        	if(player.getRuns()>3000)
+	            System.out.println(player);
+	        }
+	    }
+	}
+
