@@ -1,0 +1,26 @@
+package com.tka.jan14;
+
+public class RCBTest {
+       public static void main(String[] args) {
+
+	        RCB[] players = new RCB[11];
+
+	        players[0] = new RCB(18, "Virat Kohli-C", 750, 0, "RCB");
+	        players[1] = new RCB(13, "Faf du Plessis", 620, 0, "RCB");
+	        players[2] = new RCB(97, "Rajat Patidar", 520, 0, "RCB");
+	        players[3] = new RCB(1, "jitesh Sharma-WK", 480, 12, "RCB");
+	        players[4] = new RCB(9, "Dinesh Karthik", 350, 0, "RCB");
+	        players[5] = new RCB(5, "Cameron Green", 410, 10, "RCB");
+	        players[6] = new RCB(73, "Mahipal Lomror", 260, 2, "RCB");
+	        players[7] = new RCB(19, "Mohammed Siraj", 45, 22, "RCB");
+	        players[8] = new RCB(21, "Yash Dayal", 30, 18, "RCB");
+	        players[9] = new RCB(33, "Reece Topley", 25, 15, "RCB");
+	        players[10] = new RCB(8, "Karn Sharma", 40, 14, "RCB");
+	        for (RCB player : players) {
+		     if(player.getWickets()>10)
+		      System.out.println(player);
+	        }
+	    }
+	}
+
+
