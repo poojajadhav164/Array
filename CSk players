@@ -1,0 +1,47 @@
+package com.tka.jan14;
+
+public class CSK {
+
+	    private int jerseyNo;
+	    private String name;
+	    private int runs;
+	    private int wickets;
+	    private String teamName;
+
+	    public CSK(int jerseyNo, String name, int runs, int wickets, String teamName) {
+	        this.jerseyNo = jerseyNo;
+	        this.name = name;
+	        this.runs = runs;
+	        this.wickets = wickets;
+	        this.teamName = teamName;
+	    }
+
+	    public int getJerseyNo() {
+	        return jerseyNo;
+	    }
+
+	    public String getName() {
+	        return name;
+	    }
+
+	    public int getRuns() {
+	        return runs;
+	    }
+
+	    public int getWickets() {
+	        return wickets;
+	    }
+
+	    public String getTeamName() {
+	        return teamName;
+	    }
+
+	    @Override
+		 public String toString() {
+		        return jerseyNo + " | " + name + " | Runs: " + runs + " | Wickets: " + wickets + " | Team: " + teamName;
+		        
+	    }
+	}
+
+
+
