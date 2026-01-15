@@ -1,0 +1,28 @@
+package com.tka.jan14;
+
+public class PBKSTest {
+           public static void main(String[] args) {
+
+	        PBKS[] players = new PBKS[11];
+
+	        players[0] = new PBKS(1, "Shreyas iyer-C", 96, 0, "PBKS");
+	        players[1] = new PBKS(10, "priyansh Arya", 38, 0, "PBKS");
+	        players[2] = new PBKS(27, "prabhsimran singh-WK", 72, 1, "PBKS");
+	        players[3] = new PBKS(18, "Shahrukh Khan", 21, 0, "PBKS");
+	        players[4] = new PBKS(25, "nehal vadhera", 16, 0, "PBKS");
+	        players[5] = new PBKS(99, "marcus stoinis", 28, 10, "PBKS");
+	        players[6] = new PBKS(7, "shashank singh", 12, 13, "PBKS");
+	        players[7] = new PBKS(9, "Harpreet Brar", 8, 23, "PBKS");
+	        players[8] = new PBKS(12, "Kagiso Rabada", 4, 31, "PBKS");
+	        players[9] = new PBKS(13, "Arshdeep Singh", 2, 25, "PBKS");
+	        players[10] = new PBKS(23, "yuzedra Chahal", 0, 20, "PBKS");
+	        
+	        for (PBKS player : players) {
+	        	if(player.getWickets()>27)
+	        		System.out.println(player);
+	          
+	        }
+	    }
+	}
+
+
