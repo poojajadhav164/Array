@@ -1,0 +1,28 @@
+package com.tka.jan14;
+
+public class MITest {
+	    public static void main(String[] args) {
+
+	        MI[] miPlayers = new MI[11];
+
+	        miPlayers[0] = new MI(45, "Rohit Sharma-C", 6200, 15, "MI");
+	        miPlayers[1] = new MI(63, "Suryakumar Yadav", 3200, 0, "MI");
+	        miPlayers[2] = new MI(33, "Hardik Pandya", 2300, 50, "MI");
+	        miPlayers[3] = new MI(93, "Ishan Kishan-WK", 2500, 0, "MI");
+	        miPlayers[4] = new MI(55, "Tilak Varma", 1200, 0, "MI");
+	        miPlayers[5] = new MI(23, "Tim David", 1000, 0, "MI");
+	        miPlayers[6] = new MI(19, "Jasprit Bumrah", 200, 150, "MI");
+	        miPlayers[7] = new MI(12, "Piyush Chawla", 500, 120, "MI");
+	        miPlayers[8] = new MI(24, "Jason Behrendorff", 100, 80, "MI");
+	        miPlayers[9] = new MI(7, "Kumar Kartikeya", 50, 25, "MI");
+	        miPlayers[10] = new MI(99, "Akash Madhwal", 30, 20, "MI");
+
+	        for (MI player : miPlayers) {
+	        	if(player.getRuns()>5000)
+	        		System.out.println(player);
+	          
+	        }
+	    }
+	}
+
+
